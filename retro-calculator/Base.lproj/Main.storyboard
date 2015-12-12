@@ -249,7 +249,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2N-HQ-9jl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2N-HQ-9jl">
                                 <rect key="frame" x="188" y="142" width="223" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="223" id="mSU-pY-b4r"/>
@@ -277,6 +277,9 @@
                             <constraint firstItem="tGt-Cl-aqM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pMO-AE-42u"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLbl" destination="v2N-HQ-9jl" id="0DS-5a-51b"/>
+                    </connections>
                 </viewController>
                 <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="20" id="n3o-5u-bqd">
                     <rect key="frame" x="0.0" y="0.0" width="223" height="62"/>
